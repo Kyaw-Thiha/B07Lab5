@@ -1,0 +1,43 @@
+# Gradle
+.gradle/
+build/
+
+# IntelliJ IDEA / JetBrains
+.idea/
+*.iml
+out/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# macOS and Linux junk
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Java build outputs
+*.class
+*.jar
+*.war
+*.ear
+
+# Test reports and coverage
+test-results/
+reports/
+jacoco/
+
+# Optional: Ignore dependency caches if using wrapper
+!gradle/wrapper/gradle-wrapper.jar
+!gradlew
+!gradlew.bat
+
+# Generated files (if any)
+bin/
